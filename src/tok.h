@@ -21,7 +21,7 @@ typedef enum {
 } Toks;
 
 // for debug purposes
-static const char* uwu[] = {
+static const char* debugTypes[] = {
     "WHITESPACE",
 
     "IDENTIFIER",
