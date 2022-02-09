@@ -113,5 +113,5 @@ Token *sortToks(Token* tokens) {
 }
 
 void debug(Token token) {
-    printf("token(%d, %s, %s, %d);\n", token.type, uwu[token.tok], token.text, token.linenum);
+    printf("token(%d, %s, %s, %d);\n", token.type, debugTypes[token.tok], token.text, token.linenum);
 }
